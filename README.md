@@ -88,17 +88,22 @@ npm run dev
 ## 🚀 Akses Aplikasi
 
 * **Frontend (React)**: `http://localhost:5173`
+* * **Frontend (React) (Admin)**: `http://localhost:5173/admin/login`
 * **Backend API (Laravel)**: `http://127.0.0.1:8000/api`
 
 ---
 
-## 🧪 Testing
+## 👤 Akun Default
 
-Untuk menjalankan unit test Laravel:
+Saat database di-*seed*, beberapa akun default dibuat untuk keperluan testing:
 
-```bash
-php artisan test
-```
+| Role       | Email                | Password |
+| ---------- | ---------------------| -------- |
+| Admin      | admin@example.com    | 12345678 |
+| Customer   | customer@example.com | 12345678 |
+| Management | manager@example.com  | 12345678 |
+
+> 🔐 **Catatan**: Anda dapat mengubah akun-akun ini di file `database/seeders/UserSeeder.php` sebelum menjalankan `php artisan db:seed`.
 
 ---
 
