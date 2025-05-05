@@ -88,8 +88,8 @@ npm run dev
 ## 🚀 Akses Aplikasi
 
 * **Frontend (React)**: `http://localhost:5173`
-* * **Frontend (React) (Admin)**: `http://localhost:5173/admin/login`
-* **Backend API (Laravel)**: `http://127.0.0.1:8000/api`
+ * **Frontend (React) (Admin)**: `http://localhost:5173/admin/login`
+* **Backend API (Laravel)**: `http://127.0.0.1:8000/api/v1`
 
 ---
 
