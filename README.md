@@ -108,5 +108,3 @@ php artisan test
 * Anda dapat menggunakan Laravel Sanctum atau Passport untuk autentikasi jika dibutuhkan.
 
 ---
-
-Jika struktur folder Anda berbeda (misalnya frontend dan backend dalam satu direktori), saya bisa sesuaikan. Apakah Anda ingin versi bilingual (Indonesia + English) juga?
